@@ -1,10 +1,10 @@
 import React from 'react';
-import Pousada from '../assets/Pousada.png';
-import Guia from '../assets/Guia.png';
-import Passeio from '../assets/Passeio.png';
-import Restaurante from '../assets/Restaurante.png';
-import Bike from '../assets/Bike.png';
-import Caminhada from '../assets/Restaurante.png';
+import Pousada from '../assets/pousada.png';
+import Guia from '../assets/guia.png';
+import Passeio from '../assets/passeio.png';
+import Restaurante from '../assets/restaurante.png';
+import Bike from '../assets/bike.png';
+import Caminhada from '../assets/restaurante.png';
 import CardService from './CardServices';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
