@@ -11,8 +11,7 @@ const Home = () => {
             <NavBar />
             <h1>Welcome to Turismo Digital</h1>
             <p>Explore the best destinations and plan your next adventure!</p>
-            <Hero />
-            
+            <Hero />      
             <Service />
         </div>
         <Footer />
