@@ -2,7 +2,10 @@ import React from 'react';
 
 const CardService = ({ image, title, description, link }) => {
     return (
-        <div className="w-full max-w-sm sm:max-w-md md:max-w-lg bg-white border border-gray-200 rounded-2xl shadow-md overflow-hidden m-2 flex flex-col ml-auto mr-auto">
+        <div
+            className="w-full max-w-sm sm:max-w-md md:max-w-lg bg-white border border-gray-200 rounded-2xl shadow-md overflow-hidden m-2 flex flex-col ml-auto mr-auto
+             transform transition-transform duration-300 hover:scale-105 origin-center"
+        >
             {/* Imagem */}
             <img
                 src={image}
